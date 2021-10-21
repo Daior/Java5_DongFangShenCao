@@ -23,7 +23,7 @@ public class ShopCartTest {
     public void save() {
         ShopCartDetail shopCartDetail = new ShopCartDetail();
         shopCartDetail.setUser_id(1);
-        shopCartDetail.setCommodity_id(3);
+        shopCartDetail.setCommodity_id(4);
         shopCartDetail.setBuy_number(8);
         shopCartDetailService.save(shopCartDetail);
     }
